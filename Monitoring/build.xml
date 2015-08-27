@@ -84,7 +84,7 @@
         </java>
     </target>
               	<target name="war" depends="build">
-              	              	    <war destfile="Monitoring.war" webxml="WebContent/WEB-INF/web2.xml">
+              	              	    <war destfile="Monitoring.war" webxml="WebContent/WEB-INF/web.xml">
               	              	        <fileset dir="WebContent"/>
               	              	        <lib dir="WebContent/WEB-INF/lib"/>
               	              	        <classes dir="build/classes"/>
